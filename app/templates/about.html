@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<style>
+#abt_hm{
+    background-image: url('static/image/about.jpg');
+    height: 500px;
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+
+}
+</style>
+
+<div class="container-fluid">
+    <div class="row" id="abt_hm">
+        <div class="col-sm-12">
+            <h1 style="color: white; font-weight: bolder; margin-top: 400px;">ABOUT US...</h1>
+        </div>
+    </div>
+
+    <div class="row mt-2"style="margin: 0 auto;">
+        <div class="col-sm-6 " >
+            <img style="border-radius: 30px; " src="{% static 'image/abt1.jpg'%}" alt="" width="580">
+        </div>
+        <div class="col-sm-6 mt-5" style="text-align: justify;">
+            <h1 class="head mb-5">ABOUT KERALA TOURISM HUB</h1>
+            Kerala Tourism Hub is a reputed Cochin based Kerala tour operator offering customised Kerala tour packages for over 2 decades. Plan your Kerala Tourism packages with the most trusted tour operator in Kerala and enjoy the best of honeymoon tour packages in Kerala. Kerala Tourism Hub is dedicated to provide you with the best Kerala travel plans, Kerala honeymoon trips and Kerala tour packages. Kerala is the land known for enchanting beauty, scenic landscapes, breath-taking waterfalls and beautiful beaches. Tourist from all around the world comes to visit Kerala round the year through Kerala Tourism Hub. Kerala tourism offers variety of travel options like weekend tour, Family tour, Honeymoon package, Adventure trip, Pilgrimage visit, Ayurveda treatment and Backwater holidays.
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <p>Kerala, God's Own Country is full of amazing tourist attractions and is one of the most popular tourist destinations in India. Kerala Tourism Hub is the leading Kerala Tour Operator in Cochin and offers best Kerala Tour Packages with a variety of attractions. Whether you are looking for a family tour, romantic getaways or honeymoon special trips, Kerala Tourism Hub offers tailor-made Kerala Tour Packages to suit all your needs. Our Kerala tour packages are designed to provide a complete and hassle-free holiday experience. We offer special packages to explore the beauty of Munnar, Kovalam, Alleppey, and other tourist spots of Kerala. Our tour packages</p>
+
+            <p>include accommodation, sightseeing tour, transport, meals, and various other activities. You can avail the best tour packages in Kerala with Kerala Tourism Hub. We provide all information about travel destinations and sightseeing attractions in Kerala. Our tour packages are flexible and can be customised according to your budget and preferences. So, book your Kerala tour packages with us and experience the beauty of God’s own country.</p>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-sm-12">
+            <h1 style="text-align: center;">OUR SERVICES</h1>
+
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-sm-6">
+            <img style="border-radius: 30px; " src="{% static 'image/honeymoon.jpg'%}" alt="" width="580">
+        </div>
+
+        <div class="col-sm-6">
+            <h1 class="head ">Kerala Honeymoon Package</h1>
+            <p style="text-align: justify;">Marriages are made in heaven and those days should be like paradise to have romantic memories. We know the importance of honeymoon trips, a dream for everyone, to bring out the romantic hero in you and have been dreaming these days from the moment you met her/him. You have been dreaming every moment you will be spending with your partner during these days. An elephant ride with your queen, cruise through the backwaters in those floating villas (Kerala houseboat), a romantic candlelight dinner at a mountain-top restaurant, etc. To make your dream come true, Kerala, the God's own country with its beautiful beaches, backwaters, hill stations, and wildlife sanctuaries is the perfect destination for your honeymoon. There are many Kerala honeymoon packages and Kerala tour packages for couples that are available to make your honeymoon a memorable one. You can choose from a variety of honeymoon tour packages in Kerala that are designed keeping in mind the needs and preferences of the couples. From romantic cruises to luxury resorts, Kerala has something for every couple. So, what are you waiting for? Pack your bags and head to Kerala for the most romantic and beautiful honeymoon ever!</p>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-sm-6 mt-5">
+            <h1 class="head mt-2">All India / International Tour Packages</h1>
+            <p style="text-align: justify;">We have tied up with major tour operators outside Kerala to provide best holiday experience for those who plan to have an international tour or anywhere in India. If you are looking for Tour Operators in Kerala or a Tour Agency in Kerala to plan your vacation, then fill out the form below and our experts will be in touch with you to prepare the best experience for you.</p>
+        </div>
+
+        <div class="col-sm-6">
+            <img style="border-radius: 30px; " src="{% static 'image/all-india.jpg'%}" alt="" width="580">
+            
+           
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-sm-6">
+            <img style="border-radius: 30px; " src="{% static 'image/car-rent.jpg'%}" alt="" width="580">
+        </div>
+
+        <div class="col-sm-6 mt-5">
+            
+            <h1 class="head mt-5">Car Rental Service</h1>
+            <p style="text-align: justify;">We offer the add-on facility of Car Rental to make your travel completely hassle free. We have our own large fleet of luxury and regular vehicles to ensure that no matter how large or small your group is, we have that perfect vehicle to meet your requirement. We are one of the best tour operators in Kerala and could organize your transit within Kerala or anywhere in India. Our dedicated 24x7 customer service team will be of assistance to you throughout the journey.</p>
+        </div>
+    </div>
+    
+</div>
+{% endblock %}
